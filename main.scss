@@ -8,7 +8,7 @@ body {
   justify-content: center;
   height: fit-content;
   margin-top: 30px;
-  margin-bottom: auto;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -46,7 +46,6 @@ p {
 }
 
 .cta-sedans {
-  
   background-color: white;
   width: 80px;
   text-align: center;
@@ -74,7 +73,7 @@ p {
 }
 
 .suvs-table {
-  width:250px;
+  width: 250px;
   background-color: hsl(184, 100%, 22%);
 
   img {
@@ -82,7 +81,6 @@ p {
   }
 
   .cta-suvs {
-   
     background-color: white;
     width: 80px;
     text-align: center;
@@ -120,7 +118,6 @@ p {
   }
 
   .cta-luxury {
-    
     background-color: white;
     width: 80px;
     text-align: center;
@@ -144,74 +141,50 @@ p {
   background-color: hsl(179, 100%, 13%);
 
   a {
-
     color: white;
   }
 }
 
-
-@media only screen and (min-width: 850px) 
-
-{
-    body {
-      background-color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-
-    
-
-      
-    
-    .sedans-table {
-      width: 250px;
-      border-radius: 5px 0px 0px 5px;
-      height: 360px;
-      
-      img {
-
-        width: 35%;
-      }
-    }
-
-   
-  
-    
-    
-    .suvs-table {
-      width: 250px;
-      height: 360px;
-
-      img {
-
-        width: 35%;
-      }
-    }
-
-  
-  
-  
-    .luxury-table {
-      width: 250px;
-      border-radius: 0px 5px 5px 0px;
-      height: 360px;
-
-      img {
-
-        width: 35%;
-      }
-    }
-
-    
-  
-
-    p{ 
-
-      margin-bottom: 75px;
-      font-size: 11px;
-    }
-    
-  
+@media only screen and (min-width: 376px) {
+  body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
   }
+
+  .sedans-table {
+    width: 250px;
+    border-radius: 5px 0px 0px 5px;
+    height: 360px;
+
+    img {
+      width: 35%;
+    }
+  }
+
+  .suvs-table {
+    width: 250px;
+    height: 360px;
+
+    img {
+      width: 35%;
+    }
+  }
+
+  .luxury-table {
+    width: 250px;
+    border-radius: 0px 5px 5px 0px;
+    height: 360px;
+
+    img {
+      width: 35%;
+    }
+  }
+
+  p {
+    margin-bottom: 75px;
+    font-size: 11px;
+  }
+}
